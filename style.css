@@ -4,12 +4,12 @@
 body{
 	background-color: #ddd;
 	color: #121212;
-	font-size: 20px;
+	font-size: 36px;
 }
 a{
 	color: #222;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 36px;
 }
 a:hover{
 	color: #222;
@@ -20,7 +20,7 @@ a:hover{
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-	font-size: 24px;
+	font-size: 42px;
 	padding: 10px;
 	font-weight: 500;
 }
