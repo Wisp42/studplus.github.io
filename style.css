@@ -4,12 +4,11 @@
 body{
 	background-color: #ddd;
 	color: #121212;
-	font-size: 36px;
+	font-size: 1.4em;
 }
 a{
 	color: #222;
 	text-decoration: none;
-	font-size: 36px;
 }
 a:hover{
 	color: #222;
@@ -20,7 +19,7 @@ a:hover{
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-	font-size: 42px;
+	font-size: 24px;
 	padding: 10px;
 	font-weight: 500;
 }
@@ -68,6 +67,9 @@ a:hover{
 	display: block;
 }
 .focus{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
 	border-radius: 15px;
 	margin: 5px 0;
 	padding: 5px;
@@ -80,8 +82,7 @@ a:hover{
 .to_home{
 	display: block;
 	padding: 10px;
-	margin: 0 auto;
-	margin-top: 10px;
+	margin: 10px auto;
 	border-radius: 20px;
 	font-weight: 500;
 	background-color: #222;
