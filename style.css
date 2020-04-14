@@ -56,3 +56,27 @@ a{
 	background-color: #4d6;
 	color: #fff;
 }
+.focus{
+	border-radius: 15px;
+	margin: 5px auto;
+	transition: .15s;
+}
+.focus:hover{
+	background-color: #4d6;
+	color: #fff;
+}
+.to_home{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 20px;
+	font-weight: 500;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	transition: .15s;
+}
+.to_home:hover{
+	background-color: #4af;
+	color: #fff;
+}
