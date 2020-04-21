@@ -52,6 +52,7 @@ li{
 	justify-content: flex-start;
 	margin-bottom: 10px;
 	align-items: center;
+	min-width: 100%;
 }
 .theme_item:first-child{
 	margin-top: 10px;
@@ -67,7 +68,7 @@ li{
 	background-color: #333;
 }
 .description{
-	display: block;
+	display: flex;
 	width: 100%;
 	padding: 10px;
 	background-color: #eee;
@@ -134,4 +135,17 @@ tr:hover{
 }
 .tr_main:hover{
 	background-color: #4af
+}
+.link{
+	position: absolute;
+	right: 10px;
+	top: 0;
+	display: block;
+	padding: 10px;
+	background-color: #eee;
+	transition: .15s;
+}
+.link:hover{
+	background-color: #4af;
+	color: #fff;
 }
