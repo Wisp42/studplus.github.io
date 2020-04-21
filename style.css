@@ -13,6 +13,9 @@ a{
 	text-decoration: none;
 	color: #121212;
 }
+li{
+	margin: 5px 0;
+}
 .header{
 	padding: 10px;
 	width: 100%;
@@ -40,21 +43,52 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 }
-.description{
+.title{
+	text-align: center;
+	color: #060606;
+}
+.theme_item{
 	display: flex;
-	width: 100%;
+	justify-content: flex-start;
 	margin-bottom: 10px;
+	align-items: center;
+}
+.theme_item:first-child{
+	margin-top: 10px;
+}
+.num{
+	/*width: 25px;
+	height: 25px;*/
+	padding: 5px;
+	border-radius: 14px;
+	background-color: #eee;
+	margin-right: 10px;
+	color: #eee;
+	background-color: #333;
+}
+.description{
+	display: block;
+	width: 100%;
 	padding: 10px;
 	background-color: #eee;
 	border-radius: 14px;
 	transition: .15s;
 }
-.description:last-child{
+/*.description:last-child{
 	margin-bottom: 0;
-}
+}*/
 .description:hover{
 	background-color: #4d6;
 	color: #fff;
+}
+.not_writed{
+	border: 1px solid #d46;
+	background-color: #fcd;
+	color: #f46;
+	transition: .15s;
+}
+.not_writed:hover{
+	background-color: #d46;
 }
 .focus{
 	border-radius: 15px;
@@ -70,7 +104,7 @@ a{
 	display: block;
 	padding: 10px;
 	margin: 10px auto;
-	border-radius: 20px;
+	border-radius: 30px;
 	font-weight: 500;
 	background-color: #222;
 	color: #fff;
@@ -80,4 +114,24 @@ a{
 .to_home:hover{
 	background-color: #4af;
 	color: #fff;
+}
+tr{
+	border: 1px solid #121212;
+	background-color: #eee;
+	border-radius: 5px;
+	text-align: center;
+	transition: .15s;
+}
+tr:hover{
+	background-color: #4d6;
+	color: #fff;
+}
+.tr_main{
+	font-weight: 700;
+	color: #eee;
+	background-color: #333;
+	transition: .15s;
+}
+.tr_main:hover{
+	background-color: #4af
 }
