@@ -250,6 +250,23 @@ tr:hover{
 	.num{
 		padding: 0 10px;
 	}
+	.focus{
+		border-radius: 15px;
+		margin: 5px auto;
+		padding: 20px;
+		transition: .15s;
+	}
+	.to_home{
+		display: block;
+		padding: 10px;
+		margin: 10px auto;
+		border-radius: 100px;
+		font-weight: 500;
+		background-color: #222;
+		color: #fff;
+		text-align: center;
+		transition: .15s;
+	}
 	.tile_container{
 		display: flex;
 		flex-wrap: wrap;
