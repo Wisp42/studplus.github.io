@@ -15,6 +15,7 @@ a{
 }
 li{
 	margin: 5px 0;
+	list-style-position: inside;
 }
 .header{
 	padding: 10px;
