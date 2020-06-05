@@ -89,6 +89,7 @@ li{
 	margin-right: 5px;
 	color: inherit;
 }
+
 .description{
 	display: flex;
 	align-items: center;
@@ -159,7 +160,7 @@ tr:hover{
 }
 .link{
 	position: absolute;
-	right: 10px;
+	left: 10px;
 	top: 0;
 	display: block;
 	padding: 10px;
