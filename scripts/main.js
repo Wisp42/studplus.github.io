@@ -318,7 +318,11 @@ var obst_db = [
 	{name: "", keys: []},
 	{name: "", keys: []},
 ];
-
+var test_obst_db = [
+	{name: "Особливості та значення анамнезу в гінекології, методика збирання анамнезу.", keys: []},
+	{name: "Дослідження в гінекології (інструментальні).Методика і значення гінекологічного дослідження. Додаткові методи дослідження в гінекології (інструментальні).", keys: []},
+	{name: "Неправильні положення матки: причини, клінічні прояви,  діагностика,  профілактика.", keys: []},
+]
 function show_header(site = "Stud+", is_main = false){
 	if(is_main){
 		var header = '<header class="header">' + site + '<a href="../index.html" class="to_home">Домой</a></header>' 
@@ -359,6 +363,7 @@ function search_content(arr, cat_name){
 		}
 	};
 	for(var i = 0; i < arr.length; i++){
+		mark:
 		if(search_value == ""){
 			if(arr[i].not_writed){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description not_writed"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
@@ -366,6 +371,12 @@ function search_content(arr, cat_name){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
 			}
 			temple_container.push(link);
+		}else if(search_value == "#"){
+			for(var t = 0; t < test_obst_db.length; t++){
+				var link = '<div class="theme_item"><a href="../test_obst_db/p' + (t+1) + '.html" class="description"><div class="num">0' + (t+1) + '</div>' + test_obst_db[t].name + '</a></div>';
+			temple_container.push(link);
+			}
+			break mark;
 		}else if(search_value == i+1){
 			container.innerHTML = "";
 			if(arr[i].not_writed){
@@ -397,7 +408,6 @@ function search_content(arr, cat_name){
 		}
 		container.innerHTML = temple_container.join(" ");
 		document.body.appendChild(container);
-
 	}
 }
 function back_button(back_url = "#"){
