@@ -191,31 +191,31 @@ var obst_db = [
 	{name: "ПІДГОТОВКА ПАЦІЄНТА ДО ОПЕРАЦІЇ В ПЛАНОВОМУ ПОРЯДКУ ПІД ЗАГАЛЬНИМ ЗНЕБОЛЮВАННЯМ", keys: []},
 	{name: "ВИЗНАЧЕННЯ ГРУПИ КРОВІ ЗА СИСТЕМОЮ АБО ЗА ДОПОМОГОЮ ЦОЛІКЛОНІВ АНТИ-А І АНТИ-В", keys: []},
 	{name: "ВИЗНАЧЕННЯ ГРУПИ КРОВІ ЗА СИСТЕМОЮ АБО ЗА ДОПОМОГОЮ СТАНДАРТНИХ ГЕМАГЛЮТИНУЮЧИХ СИРОВАТОК", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
-	{name: "", keys: []},
+	{name: "ПІДГОТОВКА РУК ДО ОПЕРАЦІЇ ЗА МЕТОДОМ АЛЬФЕЛЬДА", keys: []},
+	{name: "ВИЗНАЧЕННЯ РЕЗУС - СУМІСНОСТІ КРОВІ ПЕРЕД ПЕРЕЛИВАННЯМ", keys: []},
+	{name: "ВИЗНАЧЕННЯ ІНДИВІДУАЛЬНОЇ СУМІСНОСТІ КРОВІ ПЕРЕД ПЕРЕЛИВАННЯМ", keys: []},
+	{name: "МЕТОДИКА ПРОВЕДЕННЯ ТУАЛЕТУ ВЕРХНІХ ДИХАЛЬНИХ ШЛЯХІВ НОВОНАРОДЖЕНОЇ ДИТИНИ", keys: []},
+	{name: "ПРОФІЛАКТИКА ГОНОБЛЕНОРЕЇ", keys: []},
+	{name: "ОБРОБКА І ПЕРЕВ`ЯЗКА ПУПОВИНИ", keys: []},
+	{name: "ВИМІРЮВАННЯ ДОВЖИНИ ТІЛАНОВОНАРОДЖЕНОЇ ДИТИНИ І ДІТЕЙ ГРУДНОГО ВІКУ", keys: []},
+	{name: "ЗВАЖУВАННЯ НОВОНАРОДЖЕНОГО і ДІТЕЙГРУДНОГО ВІКУ", keys: []},
+	{name: "МЕТОДИКА ВИЗНАЧЕННЯ ОБВОДУ ГОЛОВИ, ГРУДНОЇ КЛІТКИ У ДІТЕЙ", keys: []},
+	{name: "ГІГІЄНІЧНА ДЕКОНТОМІНАЦІЯ РУК МЕДПЕРСОНАЛУ", keys: []},
+	{name: "ПРАВИЛА ПРИГОТУВАННЯ ДЕЗІНФІКУЮЧИХ ХЛОРОВМІСНИХ РОЗЧИНІВ", keys: []},
+	{name: "ПЕРЕДСТИРИЛІЗАЦІЙНА ОЧИСТКА ШПРИЦІВ, ГОЛОК ТА ІНСТРУМЕНТАРІЮ", keys: []},
+	{name: "ПРИГОТУВАННЯ СЕРВЕТОК", keys: []},
+	{name: "ЗНЕРАЖЕННЯ ШПРИЦІВ, ГОЛОК, ІНСТРУМЕНТАРІЮ", keys: []},
+	{name: "ВОЛОГЕ ПРИБИРАННЯ ПАЛАТИ", keys: []},
+	{name: "ПОСТАНОВКА ПРОБ ДЛЯ КОНТРОЛЮ ЯКОСТІ ПЕРЕДСТЕРИЛІЗАЦІЙНОЇ ОЧИСТКИ ШПРИЦІВ, ГОЛОК ТА ІНСТРУМЕНТІВ", keys: []},
+	{name: "СТЕРИЛІЗАЦІЯ ШПРИЦІВ ТА ГОЛОК КИП`ЯТІННЯМ", keys: []},
+	{name: "ПРИГОТУВАННЯ КУЛЬОК З МАРЛІ І ВАТИ", keys: []},
+	{name: "КОНТРОЛЬ ЯКОСТІ СТЕРИЛІЗАЦІЇ В АВТОКЛАВАХ", keys: []},
+	{name: "ПОВІТРЯНА СТЕРИЛІЗАЦІЯ", keys: []},
+	{name: "ПРАВИЛА ВКЛАДАННЯ МАТЕРІАЛУ В БІКС", keys: []},
+	{name: "ОБРОБКА ПАЦІЄНТА ПРИ ПЕДИКУЛЬОЗІ", keys: []},
+	{name: "ОБРОБКА ПАЦІЄНТА ПРИ ПЕДИКУЛЬОЗІ ПАРА-ПЛЮС", keys: []},
+	{name: "ОБРОБКА ПАЦІЄНТА ПРИ ПЄДИКУЛЬОЗІ НІТІФОРОМ", keys: []},
+	{name: "ВИМІРЮВАННЯ ЗРОСТУ РОСТОМІРОМ", keys: []},
 	{name: "", keys: []},
 	{name: "", keys: []},
 	{name: "", keys: []},
@@ -364,7 +364,6 @@ function search_content(arr, cat_name){
 		}
 	};
 	for(var i = 0; i < arr.length; i++){
-		mark:
 		if(search_value == ""){
 			if(arr[i].not_writed){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description not_writed"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
@@ -372,13 +371,12 @@ function search_content(arr, cat_name){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
 			}
 			temple_container.push(link);
-		}else if(search_value == "#"){
+		}/*else if(search_value == "#"){
 			for(var t = 0; t < test_obst_db.length; t++){
 				var link = '<div class="theme_item"><a href="../test_obst_db/p' + (t+1) + '.html" class="description"><div class="num">0' + (t+1) + '</div>' + test_obst_db[t].name + '</a></div>';
 			temple_container.push(link);
 			}
-			break mark;
-		}else if(search_value == i+1){
+		}*/else if(search_value == i+1){
 			container.innerHTML = "";
 			if(arr[i].not_writed){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description not_writed"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
