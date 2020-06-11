@@ -115,13 +115,18 @@ li{
 }
 .focus{
 	border-radius: 15px;
+	border: 1px solid #ddd;
+	background-color: #ddd;
+	color: #262626;
 	margin: 5px auto;
 	padding: 5px 15px;
 	transition: .15s;
 }
 .focus:hover{
-	background-color: #4d6;
-	color: #fff;
+	border: 1px solid #4d6;
+	background-color: #eee;
+	color: #060606;
+	transform: scale(1.005, 1.005);
 }
 .back_button{
 	display: block;
