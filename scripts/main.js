@@ -371,12 +371,12 @@ function search_content(arr, cat_name){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
 			}
 			temple_container.push(link);
-		}/*else if(search_value == "#"){
+		}else if(search_value == "#"){
 			for(var t = 0; t < test_obst_db.length; t++){
 				var link = '<div class="theme_item"><a href="../test_obst_db/p' + (t+1) + '.html" class="description"><div class="num">0' + (t+1) + '</div>' + test_obst_db[t].name + '</a></div>';
 			temple_container.push(link);
 			}
-		}*/else if(search_value == i+1){
+		}else if(search_value == i+1){
 			container.innerHTML = "";
 			if(arr[i].not_writed){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description not_writed"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
