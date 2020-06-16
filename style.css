@@ -163,7 +163,19 @@ tr:hover{
 	background-color: #4af;
 	color: #fff;
 }
-
+.change_theme{
+	position: absolute;
+	right: 10px;
+	top: 0;
+	display: block;
+	padding: 10px;
+	background-color: #2a2a2a;
+	transition: .15s;
+}
+.change_theme:hover{
+	background-color: #4af;
+	color: #fff;
+}
 .tile_container{
 	display: flex;
 	flex-wrap: wrap;
