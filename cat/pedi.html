@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Stud+</title>
+	<script src="../scripts/main.js"></script>
+</head>
+<body onload="show_header('Педіатрія', true); show_content(pedi_db, 'pedi_pages');"> 
+	<div class="search_container">
+		<input type="text" id="search" oninput="search_content(pedi_db, 'pedi_pages')" placeholder="Поиск">
+		<img src="../img/search_img.png" alt="" class="search_img">
+	</div>
+	<div id="container">
+	</div>
+</body>
+</html>
