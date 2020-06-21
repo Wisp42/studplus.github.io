@@ -131,7 +131,7 @@ li{
 	color: #fff;
 }
 tr{
-	border: 1px solid #121212;
+	border: 1px solid #eee;
 	background-color: #3a3a3a;
 	border-radius: 5px;
 	text-align: center;
@@ -140,6 +140,12 @@ tr{
 tr:hover{
 	background-color: #4d6;
 	color: #fff;
+}
+td{
+	padding: 10px;
+}
+table{
+	width: 100%;
 }
 .tr_main{
 	font-weight: 700;
