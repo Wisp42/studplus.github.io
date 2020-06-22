@@ -538,22 +538,26 @@ var pedi_db = [
 	{name: "Техніка введення вакцини БЦЖ", keys: []},
 	{name: "Провення  активної іммунізації (введення адсорбованої кашлюково- дифтерійно- правцевої  вакцини АКДП)", keys: []},
 	{name: "Проведення активної імунізації (введення дифтерійно- правцевого анатоксину - АДП-анатоксину)", keys: []},
-	{name: "Проведення активної імунізації (введення поліомієлітної вакцини)", keys: []},
-	{name: "Проведення активної іммунізації (введення корової вакцини)", keys: []},
-	{name: "Проведення активної іммунізації", keys: []},
-	{name: "Проведення щеплення проти вірусного  гепатиту В", keys: []},
-	{name: "Проведення проби Манту, оцінка результатів", keys: []},
-	{name: "Мтодика взяття мазка з носа та зіва для дослідження на наявність збудника дифтерії", keys: []},
-	{name: "Взяття мазока з носової частини глотки для дослідження на наявність менінгокока", keys: []},
-	{name: "Методика взяття крові для дослідження на наявність HBs-антигену та антигену вірулентності", keys: []},
-	{name: "Техніка взяття крові для виявлення ВІЛ-інфікованих", keys: []},
-	{name: "Техніка взяття слизу з носової частини глотки на наявність вірусів", keys: []},
-	{name: "Допомога під час проведення спинномозкової пункції", keys: []},
-	{name: "Техніка збору мокротиння для бактеріологічного дослідження", keys: []},
-	{name: "Взяття матеріалу для бактеріологічного дослідження на мікрофлору кишкової", keys: []},
-	{name: "Техніка введення протидифтерійної сироватки", keys: []},
-	{name: "Оброблення шкіру при висипі", keys: []},
-	{name: "Взяття матеріалу для бактеріологічного дослідження на кашлюк", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
+	{name: "", keys: []},
 ]
 
 
@@ -621,12 +625,12 @@ function search_content(arr, cat_name){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
 			}
 			temple_container.push(link);
-		}else if(search_value == "#"){
+		}/*else if(search_value == "#"){
 			for(var t = 0; t < test_obst_db.length; t++){
 				var link = '<div class="theme_item"><a href="../test_obst_db/p' + (t+1) + '.html" class="description"><div class="num">0' + (t+1) + '</div>' + test_obst_db[t].name + '</a></div>';
 			temple_container.push(link);
 			}
-		}else if(search_value == i+1){
+		}*/else if(search_value == i+1){
 			container.innerHTML = "";
 			if(arr[i].not_writed){
 				var link = '<div class="theme_item"><a href="../' + cat_name + '/p' + (i+1) + '.html" class="description not_writed"><div class="num">' + counter() + '</div>' + arr[i].name + '</a></div>';
