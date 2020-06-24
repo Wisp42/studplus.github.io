@@ -59,6 +59,66 @@ var pedi_plus_db = [
 	{name: "Поставлення лікувальної та очисної клізм", links: ["../pedi_pages/p56.html"], },
 	]
 
+var ther_plus_db = [
+	{name: "Реалізація пацієнтів які поступили у стаціонар", links: ["https://studfile.net/preview/1902559/page:7/"]},
+	{name: "Здійснення огляду пацієнта", links: ["../books/therapy_book.pdf#page=34"]},
+	{name: "Проведення термометрії", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p81.html"]},
+	{name: "Дослідження артеріального пульсу", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p80.html"]},
+	{name: "Вимірювання артеріального тиску", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p83.html"]},
+	{name: "Визначення частоти, глибини, ритму дихання", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p82.html"]},
+	{name: "Дослідження сечі", links: ["http://11pol.city.kharkov.ua/%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B4%D0%BE-%D0%B4%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%B6%D0%B5%D0%BD%D1%8C-%D1%89%D0%BE-%D0%B2/"]},
+	{name: "Збирання калу", links: ["https://studfile.net/preview/2283311/page:18/"]},
+	{name: "Підготовка до колонокскопії та ректороманоскопії", links: ["http://www.onconurse.ltd.ua/files/algo_12.htm"]},
+	{name: "Підготовка до бронхоскопії", links: ["http://www.onconurse.ltd.ua/files/algo_14.htm"]},
+	{name: "Підготовка до колонокскопії", links: ["http://www.onconurse.ltd.ua/files/algo_12.htm"]},
+	{name: "Підготовка до УЗД черевної порожнини", links: ["http://medcenter.com.ua/uk/ultrazvukova-diagnostika/uzd-cherevnoi-porozhnyny.html"]},
+	{name: "Рентгенологічне дослідження органів травного каналу", links: ["http://www.onconurse.ltd.ua/files/algo_13.htm"]},
+	{name: "Рентгенологічне дослідження нирок", links: ["http://www.onconurse.ltd.ua/files/algo_21.htm"]},
+	{name: "Підготовка до пункції плевральної порожнини", links: ["https://empendium.com/ua/chapter/B27.IV.24.7"]},
+	{name: "Підготовка до абдомінальної пункції", links: ["https://empendium.com/ua/chapter/B27.IV.24.10"]},
+	{name: "Реєстрація ЕКГ", links: ["https://studfile.net/preview/5342485/"]},
+	{name: "Реєстрація пневмотахометрії", links: ["https://medportal.org/analyzes/pnevmotahometriya.html"]},
+	{name: "Спірографія", links: ["https://median.kiev.ua/ua/publikatsii-likariv/9-spirografiya"]},
+	{name: "Підготовка маніпуляційного стола до роботи", links: ["http://megalib.com.ua/content/1502_Nakrivannya_sterilnogo_stola_v_manipylyaciinomy_kabineti.html"]},
+	{name: "Проба на індивідуальну чутливість", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p31.html"]},
+	{name: "Розведення і розрахунок дози антибіотиків", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p28.html"]},
+	{name: "В/ш ін'єкція", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p31.html"]},
+	{name: "В/м ін'єкція", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p35.html"]},
+	{name: "Підшкірна ін'єкція", links: ["https://empendium.com/ua/chapter/B27.IV.24.1.2"]},
+	{name: "Заповнення системи одноразово використання", links: ["https://wisp42.github.io/studplus.github.io/ther_pages/p37.html"]},
+	{name: "Взяття крові з вени для імунологічного та біохімічного", links: ["https://metodich.ru/algoritm-viznachennya-grup-krovi-za-sistemoyu-avo-instrukciya/index2.html"]},
+	{name: "Взяття крові для бактеріологічного дослідження", links: ["https://metodich.ru/algoritm-viznachennya-grup-krovi-za-sistemoyu-avo-instrukciya/index2.html"]},
+	{name: "Проведення дезінфекції та передстерилізаційного очищення виробів медичного призначення", links: ["https://studfile.net/preview/7078688/page:20/"]},
+	{name: "Бронхит острый", links: ["../books/therapy_book.pdf#page=104"]},
+	{name: "Бронхит хронический", links: ["../books/therapy_book.pdf#page=108"]},
+	{name: "Пневмония ", links: ["../books/therapy_book.pdf#page=122"]},
+	{name: "Бронхиальная астма ", links: ["../books/therapy_book.pdf#page=113"]},
+	{name: "Туберкулёз лёгких ", links: ["../books/therapy_book.pdf#page=141"]},
+	{name: "Плевриты ", links: ["../books/therapy_book.pdf#page=165"]},
+	{name: "Бронхоэктатическая болезнь ", links: ["../books/therapy_book.pdf#page=133"]},
+	{name: "Рак лёгких ", links: ["../books/therapy_book.pdf#page=158"]},
+	{name: "Ревматизм ", links: ["../books/therapy_book.pdf#page=189"]},
+	{name: "ГБ болезнь ", links: ["../books/therapy_book.pdf#page=221"]},
+	{name: "гипертонический криз ", links: ["../books/therapy_book.pdf#page=223"]},
+	{name: "ИБС ", links: ["../books/therapy_book.pdf#page239="]},
+	{name: "Инфаркт миокарда ", links: ["../books/therapy_book.pdf#page=248"]},
+	{name: "Острая левожелудочная недостаточность ", links: ["../books/therapy_book.pdf#page=258"]},
+	{name: "Острая сосудистая недостаточность ", links: ["../books/therapy_book.pdf#page=254"]},
+	{name: "Хроническая сердечная недостаточность ", links: ["../books/therapy_book.pdf#page=261"]},
+	{name: "Острый гастрит ", links: ["../books/therapy_book.pdf#page=282"]},
+	{name: "Хронический гастрит ", links: ["../books/therapy_book.pdf#page=288"]},
+	{name: "Язва желудка ", links: ["../books/therapy_book.pdf#page=293"]},
+	{name: "Рак желудка ", links: ["../books/therapy_book.pdf#page=300"]},
+	{name: "Хронический гепатит ", links: ["../books/therapy_book.pdf#page=309"]},
+	{name: "Цироз печени ", links: ["../books/therapy_book.pdf#page=315"]},
+	{name: "Хронический холецистит ", links: ["../books/therapy_book.pdf#page=327"]},
+	{name: "Желчекаменная болезнь ", links: ["../books/therapy_book.pdf#page=330"]},
+	{name: "Хронический панкреатит ", links: ["../books/therapy_book.pdf#page=335"]},
+	{name: "Острый гломерулонефрит ", links: ["../books/therapy_book.pdf#page=349"]},
+	{name: "Острый и хронический пиелонефрит ", links: ["../books/therapy_book.pdf#page=359"]},
+	{name: "Острый и хронический пиелонефрит ", links: ["../books/therapy_book.pdf#page=363"]},
+]
+
 function show_content_test(arr) {
 	var container = document.getElementById('container');
 	function k_counter(){
@@ -78,5 +138,4 @@ function show_content_test(arr) {
 		}
 		container.innerHTML += link;
 	}
-	console.log("wosrg")
 }
